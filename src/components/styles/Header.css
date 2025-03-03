@@ -1,0 +1,49 @@
+// Navbar
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centers the `.header-nav` container */
+    background-color: white;
+}
+
+.header-nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1rem 1.5rem;
+  }
+
+  .logo-img {
+    width: 200px;
+  }
+
+  nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  nav ul li a:hover {
+    color: #6b6b6b;
+  }
