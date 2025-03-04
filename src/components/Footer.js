@@ -11,10 +11,7 @@ function Footer() {
                     <div className="locations">
                         <h5>LOCATIONS</h5>
                         <ul>
-                            <li>Accra</li>
-                            <li>Kumasi</li>
-                            <li>Cape Coast</li>
-                            <li>Tamale</li>
+                            <li>California</li>
                         </ul>
                     </div>
                     <div className="opening-times">

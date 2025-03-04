@@ -75,28 +75,28 @@ const ReservationForm = () => {
       <p>Please fill in and submit the form to book your reservation at Little Lemon.</p>
       <form onSubmit={formik.handleSubmit} className="reservation-form">
 
-        <label>Full Name</label>
-        <input type="text" name="name" {...formik.getFieldProps("name")} />
+        <label htmlFor="name">Full Name</label>
+        <input id="name" type="text" name="name" {...formik.getFieldProps("name")} />
         {formik.touched.name && formik.errors.name && <p className="error">{formik.errors.name}</p>}
 
-        <label>Email</label>
-        <input type="email" name="email" {...formik.getFieldProps("email")} />
+        <label htmlFor="email">Email</label>
+        <input id="email" type="email" name="email" {...formik.getFieldProps("email")} />
         {formik.touched.email && formik.errors.email && <p className="error">{formik.errors.email}</p>}
 
-        <label>Telephone</label>
-        <input type="tel" name="phone" {...formik.getFieldProps("phone")} />
+        <label htmlFor="tel">Telephone</label>
+        <input id="tel" type="tel" name="phone" {...formik.getFieldProps("phone")} />
         {formik.touched.phone && formik.errors.phone && <p className="error">{formik.errors.phone}</p>}
 
-        <label>Guests</label>
-        <input type="number" name="guests" {...formik.getFieldProps("guests")} />
+        <label htmlFor="guests">Guests</label>
+        <input id="guests" type="number" name="guests" {...formik.getFieldProps("guests")} />
         {formik.touched.guests && formik.errors.guests && <p className="error">{formik.errors.guests}</p>}
 
-        <label>Date</label>
-        <input type="date" name="date" {...formik.getFieldProps("date")} />
+        <label htmlFor="date">Date</label>
+        <input id="date" type="date" name="date" {...formik.getFieldProps("date")} />
         {formik.touched.date && formik.errors.date && <p className="error">{formik.errors.date}</p>}
 
-        <label>Time</label>
-        <select name="time" {...formik.getFieldProps("time")}>
+        <label htmlFor="time">Time</label>
+        <select id="time" name="time" {...formik.getFieldProps("time")}>
           {generateTimeOptions()}
         </select>
         {formik.touched.time && formik.errors.time && <p className="error">{formik.errors.time}</p>}
