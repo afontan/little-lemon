@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# Little Lemon (Frontend developer capstone project)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created as part of the [course with meta certification](https://www.coursera.org/professional-certificates/meta-front-end-developer-es)
+
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/59d7061b-ce8d-4e14-a4c2-86a9e0148512)
+
+![image](https://github.com/user-attachments/assets/f058dec6-ba02-4648-a7f3-b34213978589)
+
+![image](https://github.com/user-attachments/assets/4b861fd6-894f-4aae-bf61-f87d67bcba72)
+
 
 ## Available Scripts
 
