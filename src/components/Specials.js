@@ -3,6 +3,7 @@ import GreekSaladImg  from "../assets/greek-salad.jpg";
 import BruschettaImg from "../assets/bruschetta.jpg";
 import LemonDessertImg from "../assets/lemon-dessert.jpg";
 import "./styles/Specials.css";
+import { NavLink } from "react-router-dom";
 
 function Specials() {
     return (
@@ -10,7 +11,7 @@ function Specials() {
             <div className="specials-section-title">
                     <h1>This Week's Specials</h1>
                     <div className="btn-container">
-                        <button className="btn btn-menu">Check our Menu!</button>
+                        <button className="btn btn-menu"><NavLink to="/menu">Check our Menu!</NavLink></button>
                     </div>
             </div>
             <div className="specials-cards-container">
